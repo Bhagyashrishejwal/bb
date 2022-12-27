@@ -1,0 +1,14 @@
+.pseudo1{
+    color:pink;
+
+}
+p.pseudo1::first-letter{
+    color:blue;
+    font-size: 230px;
+}
+.pseudo2{
+    color:aqua;
+}
+h1.pseudo2::first-line{
+    color:blueviolet;
+}

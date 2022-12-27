@@ -1,0 +1,91 @@
+p{
+    color:blue;
+    font-size: 20px;;
+}
+#gg{
+    color:pink;
+}
+.main2{
+    color:aqua;
+}
+p.main2:hover{
+    color:blueviolet;
+}
+.qq{
+    display:block;
+    background-color:blueviolet;
+    padding:20px;
+}
+.s1{
+    display:inline-block;
+    background-color:yellow;
+    padding:20px;
+}
+.main4{
+    display:none;
+    color: brown;
+    
+}
+div.main3:hover p{
+    display:block;
+    color:red;
+}
+.main6{
+    display:none;
+    color: brown;
+    
+}
+.main5{
+    color:red;
+    disply:inline;
+}
+div.main5:hover span{
+    display:inline-block;
+    color:red;
+}
+/**{
+    color:green;
+}
+p,h3,h4{
+    font-size: 40px;
+    color:orange;
+}*/
+.hd1{
+    background-color:pink;
+}
+h1.hd1:active{
+    background-color:violet;
+}
+input:checked{
+    height:20px;
+    width:20px;
+}
+.hd2{
+    background-color:blue;
+}
+.hd2:active{
+    background-color:red;
+}
+input[type=text]:focus{
+    background-color:rgb(144, 140, 135);
+    color:black;
+    border:2px solid red;
+}
+.hd3{
+    background-color: pink;
+    color: black;
+    font-size: 30px;
+}
+div.hd3 input:focus{
+    background-color: blueviolet;
+    color: blue;
+}
+.hd4{
+    background-color: bisque;
+
+}
+div.hd4 input:disabled{
+    background-color: blueviolet;
+}
+    
+}
